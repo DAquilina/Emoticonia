@@ -3,7 +3,7 @@
 
 //Includes
 #include <vector>
-#include "PointOfInterest"
+#include "pointofinterest.hpp"
 
 //Forward Declarations
 class Action;

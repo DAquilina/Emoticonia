@@ -38,7 +38,7 @@ class PointOfInterest
     
   //Constructors
     PointOfInterest ();
-    PointOfInterest (vector<Action>* actionSet, int x1, int y1, int x2, int y2, bool _accesible = false);
+    PointOfInterest (Action* actionSet, int x1, int y1, int x2, int y2, bool _accesible = false);
     ~PointOfInterest ();
 };
 

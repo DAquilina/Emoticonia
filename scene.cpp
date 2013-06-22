@@ -10,6 +10,11 @@ Scene::~Scene ()
   
 }
 
+Action* Scene::GetActions ()
+{
+  
+}
+
 /**
  * Retrieves the actions associated with the point of interest at a given point.
  * If there is no point of interest at that point, then the Scene's independent

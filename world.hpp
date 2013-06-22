@@ -2,7 +2,8 @@
 #define WORLD
 
 //Includes
-#include <unordered_map>
+#include <map>
+#include <string>
 
 //Forward Declarations
 class Scene;
@@ -11,7 +12,7 @@ class World
 {
   private:
   //Members
-    std::unordered_map<Scene, std::string> sceneList;
+    std::map<Scene, std::string> sceneList;
     
   //Utilities
     
